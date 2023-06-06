@@ -16,8 +16,6 @@ class Biker
     end
     
     def log_ride(ride, distance)
-      p @acceptable_terrain.include?(ride.terrain)
-      p ride.terrain
       if @acceptable_terrain.include?(ride.terrain)
         if rides.include?(ride)
          rides[ride] << distance
