@@ -23,6 +23,7 @@ RSpec.describe Ride do
         expect(@ride2.loop?).to be true
         expect(@ride2.total_distance).to eq(14.9)
 
+        
 
       end
 
